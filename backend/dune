@@ -1,0 +1,6 @@
+(library
+ (name backend)
+ (foreign_stubs
+  (language cxx)
+  (names ast)
+  (flags -Wall -O2 -fPIC -stdlib=libc++ -lc++ -lc++abi)))
