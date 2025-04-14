@@ -1,4 +1,4 @@
-#include "ast.hpp"
+#include "ast.h"
 
 extern "C" {
     #include <caml/memory.h>

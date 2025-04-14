@@ -1,5 +1,0 @@
-#!/bin/bash
-
-dune build
-cp backend/ast.hpp _build/default/backend/ast.hpp
-dune build
