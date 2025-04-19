@@ -34,8 +34,4 @@ type fdecl = {
   mutable body : block 
 }
 
-type decl = Gfdecl of fdecl node
-
-type prog = decl list
-
 external convert_caml_ast : fdecl node -> unit = "convert_caml_ast"
